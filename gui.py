@@ -42,7 +42,7 @@ class VoiceWriterGUI:
         self.processingModeCombo.bind("<<ComboboxSelected>>", self.onProcessingModeChange)
 
         # APIキー入力
-        ttk.Label(self.master, text="APIキー:").grid(row=1, column=0, sticky="w", padx=5, pady=5)
+        ttk.Label(self.master, text="OpenAIAPIキー:").grid(row=1, column=0, sticky="w", padx=5, pady=5)
         self.apiKey = tk.StringVar(value=self.config.get("apiKey", ""))
         self.apiKeyEntry = ttk.Entry(self.master, textvariable=self.apiKey, show="*")
         self.apiKeyEntry.grid(row=1, column=1, sticky="ew", padx=5, pady=5)
