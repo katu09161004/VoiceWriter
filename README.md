@@ -2,6 +2,8 @@
 
 VoiceWriterは、音声をリアルタイムでテキストに変換し、自動的にクリップボードにコピーして指定したアプリケーションに貼り付けるPythonアプリケーションです。
 
+![VoiceWriter](VoiceWriter.png)
+
 ## 特徴
 
 - リアルタイム音声認識
@@ -12,7 +14,7 @@ VoiceWriterは、音声をリアルタイムでテキストに変換し、自動
 
 ## 必要条件
 
-- Python 3.7以上
+- Python 3.7以上？
 - PyAudio
 - OpenAI Whisper
 - PyTorch
