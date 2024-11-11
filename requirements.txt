@@ -1,4 +1,4 @@
-tkinter
+#tkinter
 pyaudio
 openai-whisper
 torch
